@@ -78,5 +78,4 @@ end
 group :test do
   gem 'rspec-rails', '~>6.0.0' #ver 6.
   gem 'simplecov', require: false
-
 end 
