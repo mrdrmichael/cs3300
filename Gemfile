@@ -68,6 +68,9 @@ group :development do
   # gem "spring"
 end
 
+#THIS IS THE ADDED DEVISE GEM
+gem 'devise'
+
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
@@ -78,4 +81,5 @@ end
 group :test do
   gem 'rspec-rails', '~>6.0.0' #ver 6.
   gem 'simplecov', require: false
+  gem 'factory_bot_rails' 
 end 
